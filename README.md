@@ -1,1 +1,1 @@
-# codingquiz-for-whomver-is_the_wiz
+# codingquiz-for-whomever-is_the_wiz
