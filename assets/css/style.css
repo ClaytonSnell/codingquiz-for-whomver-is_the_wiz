@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .wrapper {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+    text-align: center;
+  }
+
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    background: #dcd10e;
+    color: #fff;
+  }
+
+.h1 {
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: xx-large;
+    color: purple;
+}
+
+button {
+  color: white;
+  background-color: purple;
+  font-size: 30px;
+  font-stretch: expanded;
+}
