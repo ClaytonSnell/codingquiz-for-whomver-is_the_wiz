@@ -2,31 +2,49 @@
     box-sizing: border-box;
   }
 
-  .wrapper {
-    margin: 100px auto 0 auto;
-    max-width: 600px;
-    text-align: center;
+  .highscores {
+    font-size: xx-large;
   }
 
+  section {
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+  }
 
-.main-header {
+.hidden-nav {
     display: flex;
     justify-content: space-between;
-    padding: 6px;
+    padding: 15px;
     background: #dcd10e;
     color: #fff;
+    /* display: none; */
   }
 
-.h1 {
+  #introText {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.intro {
     flex-wrap: wrap;
     text-align: center;
     font-size: xx-large;
-    color: purple;
+    color: turquoise;
 }
 
 button {
   color: white;
   background-color: purple;
   font-size: 30px;
-  font-stretch: expanded;
+}
+
+
+
+.hidden {
+  display: none;
+  flex-direction: column;
 }
