@@ -30,7 +30,7 @@ var questions = [
     },
     {
         title: "What is the function called that listens and fires arguments?",
-        options: ["addListener", "clickOn", "onclick", "addEventListener"],
+        options: ["addListener", "clickOn", "onclick", ".addEventListener"],
         answer: "addEventListener"
     },
     {
@@ -168,6 +168,12 @@ function question5() {
     option4.addEventListener("click", enterInitials);
 }
 
+//Stop Timer with Click on Question 5
+function stopTimer() {
+    timerEl.textContent = 0;
+    clearInterval(timeInterval);
+}
+
 //Score & Enter Initials Variables
 var quizScore = 0;
 var scoreEl = document.querySelector("#score"); 
@@ -179,12 +185,6 @@ var yourScoreBox = document.querySelector("#yourScoreBox");
 var yourScoreEl = document.querySelector("#yourScore");
 var clearBtn = document.querySelector("#clearBtn");
 var backBtn = document.querySelector("#backBtn");
-
-//Stop Timer with Click on Question 5
-function stopTimer() {
-    timerEl.textContent = 0;
-    clearInterval(timeInterval);
-}
 
 
 //function that allows somone to enter initials(hides questions/displays enter initials)
